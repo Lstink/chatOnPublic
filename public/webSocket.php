@@ -6,7 +6,7 @@ $ws = new swoole_websocket_server("0.0.0.0", 9502);
 
 //监听WebSocket连接打开事件
 $ws->on('open', function ($ws, $request) {
-    var_dump($request->fd, $request->get, $request->server);
+    // var_dump($request->fd, $request->get, $request->server);
     // $ws->push($request->fd, "hello, welcome\n");
 });
 
@@ -73,7 +73,10 @@ class WebSocketClass
                 return $this -> login($data);
                 break;
             case 'chatOnPublic':
-                return $this -> chatOnPublic($data);
+                return $this->chatOnPublic($data);
+                break;
+            case 'chatOnPrivate':
+                return $this->chatOnPrivate($data);
                 break;
             
             default:
@@ -194,6 +197,13 @@ class WebSocketClass
         }
     }
     /**
+     * @content 给指定用户推送消息
+     */
+    public function sendMessageToUser($fd,$data)
+    {
+        $this -> ws -> push($fd,json_encode($data));
+    }
+    /**
      * @content 聊天室
      */
     public function chatOnPublic($data)
@@ -206,8 +216,28 @@ class WebSocketClass
             'action'=>'chatOnPublic',
             'time'=>date('Y-m-d H:i:s'),
             'user'=>['fd'=>$data['fd'],'username'=>$username],
+            'type'=>'public'
         ];
         $this->sendMessageToAll($data);
+    }
+    /**
+     * @content 私有聊天室
+     */
+    public function chatOnPrivate($data)
+    {
+        $username = $this -> getUserNameByFd($data['fd']);
+        //将数据发送给指定用户
+        $arr= [
+            'code'=>200,
+            'data'=>$data['message'],
+            'action'=>'chatOnPrivate',
+            'time'=>date('Y-m-d H:i:s'),
+            'user'=>['fd'=>$data['fd'],'username'=>$username],
+            'type'=>'private'
+        ];
+        $this->sendMessageToUser($data['to_fd'],$arr);
+        //给自己也发一条
+        $this->sendMessageToUser($this->frame->fd,$arr);
     }
     /**
      * @content 根据fd获取用户的名字

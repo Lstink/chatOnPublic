@@ -48,11 +48,24 @@
                 <form method="get" action="">
 
                     <div class="input-group mt-3">
-                        
+
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" fd="0" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            全部
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" id="list">
+                                <a class="dropdown-item sel" href="javascript:;" fd="0">全部</a>
+                                <a class="dropdown-item sel" href="javascript:;" fd="1">用户1</a>
+                                <a class="dropdown-item sel" href="javascript:;" fd="2">用户2</a>
+                            </div>
+                        </div>
+
                         <textarea class="form-control" id="message" rows="2" style="resize:none"></textarea>
+
                         <div class="input-group-append">
                             <button class="btn btn-outline-info" type="button" id="emoji">表情</button>
                             <button class="btn btn-outline-success" type="button" id="button-addon2">发送</button>
+                            
                         </div>
                     </div>
                     <input type="hidden" name="fd" id="fd">
@@ -156,6 +169,9 @@
                 case 'chatOnPublic':
                     chatOnPublic(data);
                     break;
+                case 'chatOnPrivate':
+                    chatOnPrivate(data);
+                    break;
             
                 default:
                     break;
@@ -194,7 +210,13 @@
             }
             //获取当前用户的fd
             var fd = $('#fd').val();
-            var json = '{"message":"'+value+'","fd":"'+fd+'","action":"chatOnPublic"}';
+            //获取发送对象的fd
+            var to_fd = $('#btnGroupDrop1').attr('fd');
+            if (to_fd == 0) {
+                var json = '{"message":"'+value+'","fd":"'+fd+'","action":"chatOnPublic"}';
+            }else{
+                var json = '{"message":"'+value+'","fd":"'+fd+'","action":"chatOnPrivate","to_fd":"'+to_fd+'"}';
+            }
             websocket.send(json);
         }
 
@@ -202,9 +224,20 @@
         function showMessageType(type,data)
         {
             if (type == 'me') {
-                var content = '<figcaption class="figure-caption text-right ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-success w-75 offset-md-3" role="alert">'+data.data+'</div>';
+                //判断是否为私密聊天
+                if (data.type == 'private') {
+                    var content = '<figcaption class="figure-caption text-right ml-1"><span>'+data.user.username+'</span> <span class="text-warning">发送给<span class="text-danger">'+data.user.username+'</span>的私密消息</span> '+data.time+'</figcaption><div class="alert alert-success w-75 offset-md-3" role="alert">'+data.data+'</div>';
+                }else{
+                    var content = '<figcaption class="figure-caption text-right ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-success w-75 offset-md-3" role="alert">'+data.data+'</div>';
+                }
             }else{
-                var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert">'+data.data+'</div>';
+                //判断是否为私密聊天
+                if (data.type == 'private') {
+                    //私密聊天
+                    var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> <span class="text-warning">您收到一条<span class="text-danger">'+data.user.username+'</span>的私密消息</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert">'+data.data+'</div>';
+                }else{
+                    var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert">'+data.data+'</div>';
+                }
             }
             //表情解析
             content = $.emojiParse({
@@ -309,7 +342,26 @@
             }
             //刷新列表
             $('#list-example').empty().append(content);
+            //刷新用户列表
+            refreshUserListBySelect(data)
         }
+
+        //刷新用户列表--聊天室
+        function refreshUserListBySelect(data)
+        {
+            //获取当前用户的fd
+            var fd = $('#fd').val();
+            var content = '<a class="dropdown-item sel" href="javascript:;" fd="0">全部</a>';
+            //将用户展示到用户列表
+            for (var i in data.data) {
+                if (i != fd) {
+                    content += '<a class="dropdown-item sel" href="javascript:;" fd="'+i+'">'+data.data[i]+'</a>';
+                }
+            }
+            //刷新列表
+            $('#list').empty().append(content);
+        }
+
         //公共聊天室
         function chatOnPublic(data){
             if (data.code == 200) {
@@ -325,15 +377,28 @@
             }
         }
 
-        //点击其它用户的聊天界面
-        $(document).on('dblclick','.he',function(){
-            //获取当前用户的fd
-            var me_fd = $('#fd').val();
-            //获取私聊用户的id
-            var he_fd = $(this).attr('fd');
-            //跳转私聊房间
-            
+        //私有聊天室
+        function chatOnPrivate(data)
+        {
+            if (data.code == 200) {
+                //获取当前用户的fd
+                var fd = $('#fd').val();
+                if (fd == data.user.fd) {
+                    var type = 'me';
+                }else{
+                    var type = 'he';
+                }
+                //显示聊天记录
+                showMessageType(type,data);
+            }
+        }
+        //选择聊天对象
+        $(document).on('click','.sel',function(){
+            var to_fd = $(this).attr('fd');
+            var to_name = $(this).text();
+            $('#btnGroupDrop1').attr('fd',to_fd).text(to_name);
         });
+
 
         
     });

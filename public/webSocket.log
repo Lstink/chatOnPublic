@@ -6216,4 +6216,807 @@ array(10) {
 }
 fd: 116 Message:{"username":"lstink","pwd":"123456","action":"login"}
 fd: 116 Message:{"message":"bsfdx","fd":"116","action":"chatOnPublic"}
+int(117)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566551682)
+  ["request_time_float"]=>
+  float(1566551682.1117)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55025)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566551681)
+}
+fd: 117 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(118)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566551899)
+  ["request_time_float"]=>
+  float(1566551899.6958)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55108)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566551898)
+}
+fd: 118 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 118 Message:{"message":"[:惊讶]","fd":"118","action":"chatOnPublic"}
+fd: 118 Message:{"message":"[:奋斗]","fd":"118","action":"chatOnPublic"}
+int(119)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566552171)
+  ["request_time_float"]=>
+  float(1566552171.3511)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55254)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566552170)
+}
+int(120)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556101)
+  ["request_time_float"]=>
+  float(1566556101.524)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57055)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556100)
+}
+fd: 120 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 120 Message:{"message":"dsd ","fd":"120","action":"chatOnPublic"}
+int(121)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556117)
+  ["request_time_float"]=>
+  float(1566556117.904)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57077)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556117)
+}
+fd: 121 Message:{"username":"sss","pwd":"123456","action":"login"}
+fd: 121 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 121 Message:{"message":"dsds","fd":"121","action":"chatOnPublic"}
+fd: 121 Message:{"message":"[:大兵]","fd":"121","action":"chatOnPublic"}
+int(122)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556391)
+  ["request_time_float"]=>
+  float(1566556391.8529)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57568)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556391)
+}
+fd: 122 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(123)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556447)
+  ["request_time_float"]=>
+  float(1566556447.9305)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57641)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556447)
+}
+fd: 123 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(124)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556451)
+  ["request_time_float"]=>
+  float(1566556451.8119)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57645)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556451)
+}
+fd: 124 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(125)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556487)
+  ["request_time_float"]=>
+  float(1566556487.3606)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57685)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556486)
+}
+fd: 125 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(126)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556540)
+  ["request_time_float"]=>
+  float(1566556540.4207)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57770)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556539)
+}
+fd: 126 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(127)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556564)
+  ["request_time_float"]=>
+  float(1566556564.6985)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57808)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556564)
+}
+fd: 127 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(128)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556646)
+  ["request_time_float"]=>
+  float(1566556646.6306)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57908)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556646)
+}
+fd: 128 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(129)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556735)
+  ["request_time_float"]=>
+  float(1566556735.4204)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58020)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556734)
+}
+fd: 129 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(130)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556755)
+  ["request_time_float"]=>
+  float(1566556755.3518)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58050)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556754)
+}
+fd: 130 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(131)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556793)
+  ["request_time_float"]=>
+  float(1566556793.0587)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58105)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556792)
+}
+fd: 131 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(132)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556834)
+  ["request_time_float"]=>
+  float(1566556834.5662)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58166)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556833)
+}
+fd: 132 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(133)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566556977)
+  ["request_time_float"]=>
+  float(1566556977.9863)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58331)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566556977)
+}
+fd: 133 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(134)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566557299)
+  ["request_time_float"]=>
+  float(1566557299.706)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58751)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566557299)
+}
+fd: 134 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(135)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566557758)
+  ["request_time_float"]=>
+  float(1566557758.3723)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59300)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566557757)
+}
+fd: 135 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(136)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566558150)
+  ["request_time_float"]=>
+  float(1566558150.4362)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59794)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566558149)
+}
+fd: 136 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(137)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566558197)
+  ["request_time_float"]=>
+  float(1566558197.1341)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59859)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566558196)
+}
+fd: 137 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(138)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566560461)
+  ["request_time_float"]=>
+  float(1566560461.8616)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62679)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566560461)
+}
+fd: 138 Message:{"username":"lstink","pwd":"123456","action":"login"}
+[2019-08-23 19:43:22 #9655.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566560607)
+  ["request_time_float"]=>
+  float(1566560607.4425)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62879)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566560607)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566560617)
+  ["request_time_float"]=>
+  float(1566560617.9159)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62894)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566560617)
+}
+fd: 2 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 2 Message:{"message":"dsds","fd":"2","action":"chatOnPublic"}
+fd: 2 Message:{"message":"sdds ","fd":"2","action":"chatOnPublic"}
+fd: 2 Message:{"message":"反倒是的s ","fd":"2","action":"chatOnPublic"}
+fd: 2 Message:{"message":"发达","fd":"2","action":"chatOnPrivate","to_fd":"1"}
+PHP Notice:  Undefined index: fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+fd: 2 Message:{"message":"深V打的是 萨达","fd":"2","action":"chatOnPrivate","to_fd":"1"}
+PHP Notice:  Undefined index: fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+fd: 2 Message:{"message":" fadSAD ","fd":"2","action":"chatOnPrivate","to_fd":"1"}
+PHP Notice:  Undefined index: fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+fd: 2 Message:{"message":"DDADV爱上","fd":"2","action":"chatOnPublic"}
+fd: 2 Message:{"message":"第三方三","fd":"2","action":"chatOnPublic"}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566561020)
+  ["request_time_float"]=>
+  float(1566561020.9971)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63376)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566561020)
+}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566561027)
+  ["request_time_float"]=>
+  float(1566561027.1392)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63384)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566561027)
+}
+fd: 4 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566561032)
+  ["request_time_float"]=>
+  float(1566561032.5132)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63393)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566561032)
+}
+fd: 5 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 5 Message:{"message":"dsad","fd":"5","action":"chatOnPublic"}
+fd: 5 Message:{"message":"达大厦","fd":"5","action":"chatOnPublic"}
+fd: 5 Message:{"message":"是多少","fd":"5","action":"chatOnPrivate","to_fd":"4"}
+PHP Notice:  Undefined index: fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+fd: 5 Message:{"message":"搞得","fd":"5","action":"chatOnPrivate","to_fd":"4"}
+PHP Notice:  Undefined index: fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+[2019-08-23 19:52:31 #12137.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566561156)
+  ["request_time_float"]=>
+  float(1566561156.4448)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63538)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566561156)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566561160)
+  ["request_time_float"]=>
+  float(1566561160.0633)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63544)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566561159)
+}
+fd: 2 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 2 Message:{"message":"dssd","fd":"2","action":"chatOnPublic"}
+fd: 2 Message:{"message":"dssd","fd":"2","action":"chatOnPrivate","to_fd":"1"}
+PHP Notice:  Undefined index: to_fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 238
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+[2019-08-23 19:56:10 #12176.1]	INFO	Server is shutdown now
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 196
+fd: 1 Message:{"message":"dsdsd","fd":"1","action":"chatOnPrivate","to_fd":"2"}
+array(6) {
+  ["code"]=>
+  int(200)
+  ["data"]=>
+  string(5) "dsdsd"
+  ["action"]=>
+  string(13) "chatOnPrivate"
+  ["time"]=>
+  string(19) "2019-08-23 19:56:21"
+  ["user"]=>
+  array(2) {
+    ["fd"]=>
+    string(1) "1"
+    ["username"]=>
+    string(6) "lstink"
+  }
+  ["type"]=>
+  string(7) "private"
+}
+PHP Notice:  Undefined index: to_fd in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 239
+PHP Warning:  Swoole\WebSocket\Server::push(): fd[0] is invalid in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 204
+[2019-08-23 19:57:23 #12203.1]	INFO	Server is shutdown now
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 2 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"dsds","fd":"1","action":"chatOnPublic"}
+fd: 1 Message:{"message":"dssdsdsdsd","fd":"1","action":"chatOnPrivate","to_fd":"2"}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 4 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 4 Message:{"message":"dadsd","fd":"4","action":"chatOnPublic"}
+fd: 3 Message:{"message":"dsdsd","fd":"3","action":"chatOnPrivate","to_fd":"4"}
+fd: 5 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 6 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 5 Message:{"message":"dssdsd","fd":"5","action":"chatOnPrivate","to_fd":"6"}
+fd: 7 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 8 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 7 Message:{"message":"dssdsd","fd":"7","action":"chatOnPublic"}
+fd: 7 Message:{"message":"dsdsdsd","fd":"7","action":"chatOnPrivate","to_fd":"8"}
+fd: 9 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 8 Message:{"message":"dsdsdsd","fd":"8","action":"chatOnPrivate","to_fd":"7"}
+fd: 8 Message:{"message":"dsds","fd":"8","action":"chatOnPrivate","to_fd":"7"}
+fd: 8 Message:{"message":"dsdsd","fd":"8","action":"chatOnPrivate","to_fd":"7"}
 
