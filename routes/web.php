@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'ChatOnlineController@webSocket');
+Route::get('/','ChatOnlineController@webSocket');
 
 Route::prefix('chat')-> group(function(){
-    Route::post('postChat', 'ChatOnlineController@postChat')->name('postChat');
+    Route::get('privateChat','ChatOnlineController@privateChat')->name('privateChat');
 });

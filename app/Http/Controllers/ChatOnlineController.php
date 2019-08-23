@@ -19,10 +19,10 @@ class ChatOnlineController extends Controller
     /**
      * @content ajax发送数据
      */
-    public function postChat(Request $request)
+    public function privateChat(Request $request)
     {
-        if ($request -> ajax()) {
-            //
-        }
+        $data=$request->all();
+        return view('privateChat');
+        dd($data);
     }
 }

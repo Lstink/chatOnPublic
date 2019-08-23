@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>公共聊天室</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/toastr.css') }}">
     <script src="{{ asset('js/app.js') }}"></script>
@@ -206,6 +206,7 @@
             }else{
                 var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert">'+data.data+'</div>';
             }
+            //表情解析
             content = $.emojiParse({
                 content: content,
                 emojis: [{type: 'qq', path: '/static/images/qq/', code: ':'}, {
@@ -301,9 +302,9 @@
             //将用户展示到用户列表
             for (var i in data.data) {
                 if (i == fd) {
-                    content += '<a class="list-group-item list-group-item-action text-success me" fd="'+i+'">'+data.data[i]+'</a>';
+                    content += '<a class="list-group-item list-group-item-action text-success me" href="javascript:;" fd="'+i+'">'+data.data[i]+'</a>';
                 }else{
-                    content += '<a class="list-group-item list-group-item-action text-primary he" fd="'+i+'">'+data.data[i]+'</a>';
+                    content += '<a class="list-group-item list-group-item-action text-primary he" href="javascript:;" fd="'+i+'">'+data.data[i]+'</a>';
                 }
             }
             //刷新列表
@@ -323,10 +324,16 @@
                 showMessageType(type,data);
             }
         }
+
         //点击其它用户的聊天界面
-
-
-        //表情添加管理
+        $(document).on('dblclick','.he',function(){
+            //获取当前用户的fd
+            var me_fd = $('#fd').val();
+            //获取私聊用户的id
+            var he_fd = $(this).attr('fd');
+            //跳转私聊房间
+            
+        });
 
         
     });
