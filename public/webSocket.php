@@ -34,6 +34,15 @@ $ws->on('close', function ($ws, $fd) {
     // echo "client-{$fd} is closed\n";
 });
 
+//心跳检测
+$ws->set(array(
+    //每多长时间检测一次
+    'heartbeat_check_interval' => 60,
+    //多长时间后关闭连接
+    'heartbeat_idle_time' => 1800,
+));
+
+
 $ws->start();
 
 
@@ -67,6 +76,9 @@ class WebSocketClass
     {
         //将json转化为数组
         $data = json_decode($json,true);
+        if (!$data) {
+            return false;
+        }
         //判断action
         switch ($data['action']) {
             case 'login':
@@ -248,4 +260,5 @@ class WebSocketClass
         $username = $data[$fd]??null;
         return $username;
     }
+    
 }

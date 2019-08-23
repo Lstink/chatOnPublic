@@ -7019,4 +7019,19 @@ fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
 fd: 8 Message:{"message":"dsdsdsd","fd":"8","action":"chatOnPrivate","to_fd":"7"}
 fd: 8 Message:{"message":"dsds","fd":"8","action":"chatOnPrivate","to_fd":"7"}
 fd: 8 Message:{"message":"dsdsd","fd":"8","action":"chatOnPrivate","to_fd":"7"}
+[2019-08-23 20:10:09 #12218.1]	INFO	Server is shutdown now
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 2 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+[2019-08-23 20:19:16 #12294.1]	INFO	Server is shutdown now
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 2 Message:{"username":"yyy","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"fadfaf","fd":"1","action":"chatOnPublic"}
+fd: 1 Message:{"message":"fdafaf","fd":"1","action":"chatOnPrivate","to_fd":"2"}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"fdafad","fd":"1","action":"chatOnPrivate","to_fd":"2"}
+fd: 1 Message:{"message":"fafafd","fd":"1","action":"chatOnPublic"}
+fd: 1 Message:test Connected
+fd: 2 Message:test Connected
+fd: 3 Message:test Connected
 

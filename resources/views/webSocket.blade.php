@@ -399,7 +399,10 @@
             $('#btnGroupDrop1').attr('fd',to_fd).text(to_name);
         });
 
-
+        //定时发送消息
+        setInterval(() => {
+            websocket.send('test Connected');
+        }, 60000);
         
     });
 </script>
