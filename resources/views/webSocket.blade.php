@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/toastr.css') }}">
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/toastr.js') }}"></script>
+    <script src="{{ asset('js/emoji_jQuery.min.js') }}"></script>
 </head>
 
 <body>
@@ -27,34 +28,30 @@
             <div class="col-md-9 border border-primary rounded chat" style="height: 450px; overflow: auto">
                 <div class="mt-3"></div>
 
-                <!-- <figcaption class="figure-caption text-left ml-1"><span>张三</span> 2018-09-10 12:05:23</figcaption>
-                <div class="alert alert-primary w-75" role="alert">
-                    A simple primary alert—check it out!sdsdsdsdsdfadfsfdaaaassssssssssffffffffffffffffffffffffffff
-                </div>
-
-                <figcaption class="figure-caption text-right mr-1">2018-09-10 12:05:23</figcaption>
-                <div class="alert alert-success mw-75 offset-md-3" role="alert">
-                    A simple primary alert—check it out!
-                </div> -->
+                
 
             </div>
             <div class="offset-md-1 col-md-2 border border-success rounded" style="height: 450px; overflow: auto">
                 <div id="list-example" class="list-group text-center">
                     <div class="mt-3"></div>
-                    <a class="list-group-item list-group-item-action text-primary he">Item 1</a>
+                    <!-- <a class="list-group-item list-group-item-action text-primary he">Item 1</a>
                     <a class="list-group-item list-group-item-action text-primary he">Item 2</a>
-                    <a class="list-group-item list-group-item-action text-success me">Item 3</a>
+                    <a class="list-group-item list-group-item-action text-success me">Item 3</a> -->
 
                 </div>
             </div>
         </div>
+
+
         <div class="row">
             <div class="col-md-9">
                 <form method="get" action="">
 
                     <div class="input-group mt-3">
-                        <input type="text" class="form-control" name="text" id="text" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        
+                        <textarea class="form-control" id="message" rows="2" style="resize:none"></textarea>
                         <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="emoji">表情</button>
                             <button class="btn btn-outline-success" type="button" id="button-addon2">发送</button>
                         </div>
                     </div>
@@ -116,7 +113,21 @@
             "hideMethod": "fadeOut"
         }
 
-        var wsServer = 'ws://192.168.63.130:9502';
+        //表情配置
+        $.Lemoji({
+            emojiInput: '#message',
+            emojiBtn: '#emoji',
+            position: 'LEFTTOP',
+            length: 8,
+            emojis: {
+                qq: {path: '/static/images/qq/', code: ':', name: 'QQ表情'},
+                tieba: {path: '/static/images/tieba', code: ';', name: "贴吧表情"},
+                emoji: {path: '/static/images/emoji', code: ',', name: 'Emoji表情'}
+            }
+        });
+
+
+        var wsServer = '{{ env('CHAT_HOST') }}';
         var websocket = new WebSocket(wsServer);
         websocket.onopen = function(evt) {
             console.log("Connected to WebSocket server.");
@@ -154,7 +165,8 @@
         };
 
         websocket.onerror = function(evt, e) {
-            console.log('Error occured: ' + evt.data);
+            toastr.error('网络已断开，请重新登录');
+            // console.log('Error occured: ' + evt.data);
         };
         //发送数据
         $('#button-addon2').click(function() {
@@ -162,21 +174,23 @@
         });
 
         //回车键的处理
-        $('#text').bind('keypress',function(){
+        $('#message').bind('keypress',function(){
             if (event.keyCode == '13') {
                 sendMessage();
+                return false;
+            }else{
+                return true;
             }
-            return false;
         });
 
         //聊天信息的发送
         function sendMessage()
         {
             //获取文本框内的值
-            var value = $('#text').val();
+            var value = $('#message').val();
             //非空判断
             if (value == '') {
-                return;
+                return false;
             }
             //获取当前用户的fd
             var fd = $('#fd').val();
@@ -184,18 +198,27 @@
             websocket.send(json);
         }
 
+        //展示聊天记录
         function showMessageType(type,data)
         {
             if (type == 'me') {
-                var content = '<figcaption class="figure-caption text-right ml-1">'+data.time+'</figcaption><div class="alert alert-success w-75 offset-md-3" role="alert">'+data.data+'</div>';
+                var content = '<figcaption class="figure-caption text-right ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-success w-75 offset-md-3" role="alert">'+data.data+'</div>';
             }else{
-                var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert"><span>'+data.user.username+'：</span>'+data.data+'</div>';
+                var content = '<figcaption class="figure-caption text-left ml-1"><span>'+data.user.username+'</span> '+data.time+'</figcaption><div class="alert alert-primary w-75" role="alert">'+data.data+'</div>';
             }
+            content = $.emojiParse({
+                content: content,
+                emojis: [{type: 'qq', path: '/static/images/qq/', code: ':'}, {
+                    path: '/static/images/tieba/',
+                    code: ';',
+                    type: 'tieba'
+                }, {path: '/static/images/emoji/', code: ',', type: 'emoji'}]
+            });
             $('.chat').append(content);
             //滚动到底部
             $(".chat").scrollTop($(".chat")[0].scrollHeight);
             //清空内容
-            $('#text').val('')
+            $('#message').val('')
         }
 
         var login = false;
@@ -300,6 +323,11 @@
                 showMessageType(type,data);
             }
         }
+        //点击其它用户的聊天界面
+
+
+        //表情添加管理
+
         
     });
 </script>

@@ -3636,4 +3636,1540 @@ fd: 15 Message:{"username":"lstink","pwd":"123456","action":"login"}
 fd: 14 Message:{"message":"fgsd","fd":"14","action":"chatOnPublic"}
 fd: 14 Message:{"message":"个f","fd":"14","action":"chatOnPublic"}
 fd: 14 Message:{"message":"d","fd":"14","action":"chatOnPublic"}
+[2019-08-23 12:04:27 *9662.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-08-23 12:04:27 $9660.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-08-23 12:04:27 #9655.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(16)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566541583)
+  ["request_time_float"]=>
+  float(1566541583.0678)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62644)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566541582)
+}
+fd: 16 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+fd: 16 Message:{"message":"颠三倒四撒大声地所","fd":"16","action":"chatOnPublic"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(17)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566541815)
+  ["request_time_float"]=>
+  float(1566541815.0234)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62721)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566541814)
+}
+fd: 17 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(18)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542046)
+  ["request_time_float"]=>
+  float(1566542046.3311)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62805)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542045)
+}
+fd: 18 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+fd: 18 Message:{"message":"都说到","fd":"18","action":"chatOnPublic"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+fd: 18 Message:{"message":"dsd","fd":"18","action":"chatOnPublic"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(19)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542091)
+  ["request_time_float"]=>
+  float(1566542091.9414)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62816)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542090)
+}
+fd: 19 Message:{"username":"叶云阳","pwd":"123456","action":"login"}
+PHP Notice:  Undefined offset: 0 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 96
+int(20)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542115)
+  ["request_time_float"]=>
+  float(1566542115.3862)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62828)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542114)
+}
+fd: 20 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(21)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542143)
+  ["request_time_float"]=>
+  float(1566542143.9719)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62841)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542143)
+}
+fd: 21 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+fd: 21 Message:{"message":"颠三倒四dsd","fd":"21","action":"chatOnPublic"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(22)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542273)
+  ["request_time_float"]=>
+  float(1566542273.1163)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62987)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542272)
+}
+fd: 22 Message:{"username":"lstink","pwd":"123456","action":"login"}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[15] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 193
+int(23)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542314)
+  ["request_time_float"]=>
+  float(1566542314.7331)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63031)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542313)
+}
+fd: 23 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 23 Message:{"message":"大大所","fd":"23","action":"chatOnPublic"}
+int(24)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566542481)
+  ["request_time_float"]=>
+  float(1566542481.2485)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63239)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566542480)
+}
+fd: 24 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 24 Message:{"message":"都说到颠三倒四是多少dsddssssdsdsddsdd","fd":"24","action":"chatOnPublic"}
+fd: 24 Message:{"message":"干撒啊ss","fd":"24","action":"chatOnPublic"}
+int(25)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543208)
+  ["request_time_float"]=>
+  float(1566543208.288)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(64193)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543207)
+}
+fd: 25 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 25 Message:{"message":"颠三倒四","fd":"25","action":"chatOnPublic"}
+int(26)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543795)
+  ["request_time_float"]=>
+  float(1566543795.1038)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(64844)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543794)
+}
+fd: 26 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(27)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543821)
+  ["request_time_float"]=>
+  float(1566543821.1659)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(64873)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543820)
+}
+fd: 27 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(28)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543871)
+  ["request_time_float"]=>
+  float(1566543871.1058)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(64934)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543870)
+}
+fd: 28 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(29)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543941)
+  ["request_time_float"]=>
+  float(1566543941.0868)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65025)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543940)
+}
+fd: 29 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(30)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566543961)
+  ["request_time_float"]=>
+  float(1566543961.3926)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65046)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566543960)
+}
+fd: 30 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(31)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544014)
+  ["request_time_float"]=>
+  float(1566544014.5461)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65104)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544013)
+}
+fd: 31 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(32)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544077)
+  ["request_time_float"]=>
+  float(1566544077.2545)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65171)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544076)
+}
+fd: 32 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(33)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544091)
+  ["request_time_float"]=>
+  float(1566544091.8605)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65188)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544090)
+}
+fd: 33 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(34)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544118)
+  ["request_time_float"]=>
+  float(1566544118.3364)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65216)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544117)
+}
+fd: 34 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(35)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544155)
+  ["request_time_float"]=>
+  float(1566544155.238)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65259)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544154)
+}
+fd: 35 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(36)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544186)
+  ["request_time_float"]=>
+  float(1566544186.7159)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65301)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544185)
+}
+fd: 36 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(37)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544210)
+  ["request_time_float"]=>
+  float(1566544210.9989)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65332)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544210)
+}
+fd: 37 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(38)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544245)
+  ["request_time_float"]=>
+  float(1566544245.8751)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65374)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544244)
+}
+fd: 38 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(39)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544271)
+  ["request_time_float"]=>
+  float(1566544271.6308)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65402)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544270)
+}
+fd: 39 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(40)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544293)
+  ["request_time_float"]=>
+  float(1566544293.0368)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65425)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544292)
+}
+fd: 40 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(41)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544337)
+  ["request_time_float"]=>
+  float(1566544337.1381)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65475)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544336)
+}
+fd: 41 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(42)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544353)
+  ["request_time_float"]=>
+  float(1566544353.0182)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65493)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544352)
+}
+fd: 42 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(43)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544385)
+  ["request_time_float"]=>
+  float(1566544385.8744)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(65527)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544384)
+}
+fd: 43 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(44)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544436)
+  ["request_time_float"]=>
+  float(1566544436.3679)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49199)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544435)
+}
+fd: 44 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(45)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544496)
+  ["request_time_float"]=>
+  float(1566544496.01)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49262)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544495)
+}
+fd: 45 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(46)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544508)
+  ["request_time_float"]=>
+  float(1566544508.8767)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49281)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544507)
+}
+fd: 46 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(47)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544532)
+  ["request_time_float"]=>
+  float(1566544532.159)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49307)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544531)
+}
+fd: 47 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(48)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544544)
+  ["request_time_float"]=>
+  float(1566544544.7324)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49330)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544543)
+}
+fd: 48 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(49)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544564)
+  ["request_time_float"]=>
+  float(1566544564.3979)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49351)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544563)
+}
+fd: 49 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(50)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544578)
+  ["request_time_float"]=>
+  float(1566544578.8188)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49368)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544577)
+}
+fd: 50 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(51)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544597)
+  ["request_time_float"]=>
+  float(1566544597.5693)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49390)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544596)
+}
+fd: 51 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 51 Message:{"message":"undefined","fd":"51","action":"chatOnPublic"}
+int(52)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544613)
+  ["request_time_float"]=>
+  float(1566544613.0975)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49409)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544612)
+}
+fd: 52 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 52 Message:{"message":"undefined","fd":"52","action":"chatOnPublic"}
+int(53)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544676)
+  ["request_time_float"]=>
+  float(1566544676.114)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49483)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544675)
+}
+fd: 53 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(54)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544698)
+  ["request_time_float"]=>
+  float(1566544698.9816)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49509)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544698)
+}
+fd: 54 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(55)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544760)
+  ["request_time_float"]=>
+  float(1566544760.2933)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49574)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544759)
+}
+fd: 55 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(56)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544802)
+  ["request_time_float"]=>
+  float(1566544802.4696)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49621)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544801)
+}
+fd: 56 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 56 Message:{"message":"ddss","fd":"56","action":"chatOnPublic"}
+fd: 56 Message:{"message":"dsd","fd":"56","action":"chatOnPublic"}
+int(57)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566544907)
+  ["request_time_float"]=>
+  float(1566544907.7318)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49754)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566544906)
+}
+fd: 57 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 57 Message:{"message":"dssd多少岁sssd55","fd":"57","action":"chatOnPublic"}
+fd: 57 Message:{"message":"dssd","fd":"57","action":"chatOnPublic"}
+fd: 57 Message:{"message":"dsdsd","fd":"57","action":"chatOnPublic"}
+int(58)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566545001)
+  ["request_time_float"]=>
+  float(1566545001.8435)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49852)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566545000)
+}
+fd: 58 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 58 Message:{"message":"dsdsdsds都说到","fd":"58","action":"chatOnPublic"}
+fd: 58 Message:{"message":"都是 ","fd":"58","action":"chatOnPublic"}
+int(59)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566545616)
+  ["request_time_float"]=>
+  float(1566545616.9996)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(50579)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566545616)
+}
+fd: 59 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(60)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566545701)
+  ["request_time_float"]=>
+  float(1566545701.9728)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(50688)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566545701)
+}
+fd: 60 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(61)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566545783)
+  ["request_time_float"]=>
+  float(1566545783.6036)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(50780)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566545782)
+}
+fd: 61 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(62)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566546013)
+  ["request_time_float"]=>
+  float(1566546013.7461)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(51035)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566546012)
+}
+fd: 62 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 62 Message:{"message":"118","fd":"62","action":"chatOnPublic"}
+fd: 62 Message:{"message":"颠三倒四","fd":"62","action":"chatOnPublic"}
+fd: 62 Message:{"message":"dsds","fd":"62","action":"chatOnPublic"}
+fd: 61 Message:{"message":"ds ","fd":"61","action":"chatOnPublic"}
+int(63)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547135)
+  ["request_time_float"]=>
+  float(1566547135.8789)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52398)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547134)
+}
+fd: 63 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 63 Message:{"message":"vsd","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":" 山水多所得是s","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"是是是","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"是","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"s s ","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"是是","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"s ","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"s ","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"是","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"sd ","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"是","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"sd ","fd":"63","action":"chatOnPublic"}
+fd: 63 Message:{"message":"sdsd","fd":"63","action":"chatOnPublic"}
+int(64)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547237)
+  ["request_time_float"]=>
+  float(1566547237.0377)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52433)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547236)
+}
+fd: 64 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(65)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547319)
+  ["request_time_float"]=>
+  float(1566547319.3392)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52459)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547318)
+}
+fd: 65 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(66)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547358)
+  ["request_time_float"]=>
+  float(1566547358.6769)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52470)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547357)
+}
+fd: 66 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(67)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547375)
+  ["request_time_float"]=>
+  float(1566547375.6596)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52479)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547374)
+}
+fd: 67 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(68)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547421)
+  ["request_time_float"]=>
+  float(1566547421.7219)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52491)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547420)
+}
+fd: 68 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(69)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547578)
+  ["request_time_float"]=>
+  float(1566547578.5477)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52553)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547577)
+}
+fd: 69 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(70)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547740)
+  ["request_time_float"]=>
+  float(1566547740.2235)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52641)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547739)
+}
+fd: 70 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 70 Message:{"message":"[,哭笑]","fd":"70","action":"chatOnPublic"}
+int(71)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566547966)
+  ["request_time_float"]=>
+  float(1566547966.0748)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52711)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566547965)
+}
+fd: 71 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 71 Message:{"message":"都是","fd":"71","action":"chatOnPublic"}
+fd: 71 Message:{"message":"[:呲牙]","fd":"71","action":"chatOnPublic"}
+fd: 71 Message:{"message":"牛啊[:傲慢]","fd":"71","action":"chatOnPublic"}
+int(72)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566548028)
+  ["request_time_float"]=>
+  float(1566548028.8045)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52732)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566548027)
+}
+fd: 72 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(73)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566548056)
+  ["request_time_float"]=>
+  float(1566548056.2678)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52740)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566548055)
+}
+fd: 73 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(74)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566548081)
+  ["request_time_float"]=>
+  float(1566548081.3496)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52751)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566548080)
+}
+fd: 74 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 74 Message:{"message":"[:便便]","fd":"74","action":"chatOnPublic"}
+fd: 74 Message:{"message":"[:炸弹]","fd":"74","action":"chatOnPublic"}
 
