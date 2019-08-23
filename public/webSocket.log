@@ -1,0 +1,3639 @@
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566470892)
+  ["request_time_float"]=>
+  float(1566470892.8067)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(51769)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566470892)
+}
+[2019-08-22 18:48:36 #9349.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566470920)
+  ["request_time_float"]=>
+  float(1566470920.9658)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(51800)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566470920)
+}
+NULL
+PHP Fatal error:  Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:123
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(123): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(101): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(67): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 123
+[2019-08-22 18:49:05 *9374.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:123
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(123): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(101): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(67): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 123
+[2019-08-22 18:49:05 $9372.0]	WARNING	swManager_check_exit_status: worker#0[pid=9374] abnormal exit, status=255, signal=0
+[2019-08-22 18:51:49 #9366.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566471118)
+  ["request_time_float"]=>
+  float(1566471118.062)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52033)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566471117)
+}
+PHP Fatal error:  Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 18:52:04 *9401.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 18:52:04 $9399.0]	WARNING	swManager_check_exit_status: worker#0[pid=9401] abnormal exit, status=255, signal=0
+[2019-08-22 18:53:28 #9393.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566471212)
+  ["request_time_float"]=>
+  float(1566471212.0338)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52141)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566471211)
+}
+NULL
+PHP Fatal error:  Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:20
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(20): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 20
+[2019-08-22 18:53:42 *9420.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:20
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(20): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 20
+[2019-08-22 18:53:42 $9418.0]	WARNING	swManager_check_exit_status: worker#0[pid=9420] abnormal exit, status=255, signal=0
+[2019-08-22 19:04:04 #9412.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566473658)
+  ["request_time_float"]=>
+  float(1566473658.6614)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55188)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566473657)
+}
+NULL
+PHP Fatal error:  Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 19:34:30 *9477.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('0.0.0.0', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 19:34:30 $9475.0]	WARNING	swManager_check_exit_status: worker#0[pid=9477] abnormal exit, status=255, signal=0
+[2019-08-22 19:34:40 #9470.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566473686)
+  ["request_time_float"]=>
+  float(1566473686.2184)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55225)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566473685)
+}
+PHP Fatal error:  Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('127.0.0.1', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 19:34:53 *9525.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Swoole\Exception: eventLoop has already been created. unable to create Swoole\Redis\Server in /data/wwwroot/www.test.com/laravel/public/webSocket.php:121
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(121): Swoole\Server->__construct('127.0.0.1', 10086, 2, 1)
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(99): WebSocketClass->getUserList(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(65): WebSocketClass->login(Array)
+#3 /data/wwwroot/www.test.com/laravel/public/webSocket.php(17): WebSocketClass->doDate('{"username":"ls...')
+#4 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 121
+[2019-08-22 19:34:53 $9523.0]	WARNING	swManager_check_exit_status: worker#0[pid=9525] abnormal exit, status=255, signal=0
+[2019-08-22 19:38:57 #9517.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566473941)
+  ["request_time_float"]=>
+  float(1566473941.3091)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55548)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566473941)
+}
+NULL
+[2019-08-22 19:59:11 #9542.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566475160)
+  ["request_time_float"]=>
+  float(1566475160.382)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57059)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566475160)
+}
+object(Swoole\WebSocket\Server)#1 (25) {
+  ["onStart":"Swoole\Server":private]=>
+  NULL
+  ["onShutdown":"Swoole\Server":private]=>
+  NULL
+  ["onWorkerStart":"Swoole\Server":private]=>
+  NULL
+  ["onWorkerStop":"Swoole\Server":private]=>
+  NULL
+  ["onWorkerExit":"Swoole\Server":private]=>
+  NULL
+  ["onWorkerError":"Swoole\Server":private]=>
+  NULL
+  ["onTask":"Swoole\Server":private]=>
+  NULL
+  ["onFinish":"Swoole\Server":private]=>
+  NULL
+  ["onManagerStart":"Swoole\Server":private]=>
+  NULL
+  ["onManagerStop":"Swoole\Server":private]=>
+  NULL
+  ["onPipeMessage":"Swoole\Server":private]=>
+  NULL
+  ["setting"]=>
+  array(9) {
+    ["open_http_protocol"]=>
+    bool(true)
+    ["open_mqtt_protocol"]=>
+    bool(false)
+    ["open_eof_check"]=>
+    bool(false)
+    ["open_length_check"]=>
+    bool(false)
+    ["open_websocket_protocol"]=>
+    bool(true)
+    ["worker_num"]=>
+    int(1)
+    ["task_worker_num"]=>
+    int(0)
+    ["buffer_output_size"]=>
+    int(2097152)
+    ["max_connection"]=>
+    int(100000)
+  }
+  ["connections"]=>
+  object(Swoole\Connection\Iterator)#2 (0) {
+  }
+  ["host"]=>
+  string(7) "0.0.0.0"
+  ["port"]=>
+  int(9502)
+  ["type"]=>
+  int(1)
+  ["mode"]=>
+  int(2)
+  ["ports"]=>
+  array(1) {
+    [0]=>
+    object(Swoole\Server\Port)#3 (16) {
+      ["onConnect":"Swoole\Server\Port":private]=>
+      NULL
+      ["onReceive":"Swoole\Server\Port":private]=>
+      NULL
+      ["onClose":"Swoole\Server\Port":private]=>
+      object(Closure)#7 (1) {
+        ["parameter"]=>
+        array(2) {
+          ["$ws"]=>
+          string(10) "<required>"
+          ["$fd"]=>
+          string(10) "<required>"
+        }
+      }
+      ["onPacket":"Swoole\Server\Port":private]=>
+      NULL
+      ["onBufferFull":"Swoole\Server\Port":private]=>
+      NULL
+      ["onBufferEmpty":"Swoole\Server\Port":private]=>
+      NULL
+      ["onRequest":"Swoole\Server\Port":private]=>
+      NULL
+      ["onHandShake":"Swoole\Server\Port":private]=>
+      NULL
+      ["onOpen":"Swoole\Server\Port":private]=>
+      object(Closure)#5 (1) {
+        ["parameter"]=>
+        array(2) {
+          ["$ws"]=>
+          string(10) "<required>"
+          ["$request"]=>
+          string(10) "<required>"
+        }
+      }
+      ["onMessage":"Swoole\Server\Port":private]=>
+      object(Closure)#6 (1) {
+        ["parameter"]=>
+        array(2) {
+          ["$ws"]=>
+          string(10) "<required>"
+          ["$frame"]=>
+          string(10) "<required>"
+        }
+      }
+      ["host"]=>
+      string(7) "0.0.0.0"
+      ["port"]=>
+      int(9502)
+      ["type"]=>
+      int(1)
+      ["sock"]=>
+      int(3)
+      ["setting"]=>
+      NULL
+      ["connections"]=>
+      object(Swoole\Connection\Iterator)#4 (0) {
+      }
+    }
+  }
+  ["master_pid"]=>
+  int(9611)
+  ["manager_pid"]=>
+  int(9618)
+  ["worker_id"]=>
+  int(0)
+  ["taskworker"]=>
+  bool(false)
+  ["worker_pid"]=>
+  int(9620)
+  ["onRequest":"Swoole\Http\Server":private]=>
+  NULL
+  ["onHandshake":"Swoole\Http\Server":private]=>
+  UNKNOWN:0
+}
+object(Swoole\WebSocket\Frame)#9 (4) {
+  ["fd"]=>
+  int(1)
+  ["data"]=>
+  string(53) "{"username":"lstink","pwd":"123456","action":"login"}"
+  ["opcode"]=>
+  int(1)
+  ["finish"]=>
+  bool(true)
+}
+[2019-08-22 20:09:16 #9611.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566475762)
+  ["request_time_float"]=>
+  float(1566475762.8081)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57798)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566475762)
+}
+NULL
+client-1 is closed
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476283)
+  ["request_time_float"]=>
+  float(1566476283.0716)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58417)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476282)
+}
+NULL
+client-2 is closed
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476337)
+  ["request_time_float"]=>
+  float(1566476337.0031)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58483)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476336)
+}
+NULL
+[2019-08-22 20:19:26 #9675.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476393)
+  ["request_time_float"]=>
+  float(1566476393.1527)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58548)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476392)
+}
+NULL
+client-1 is closed
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476411)
+  ["request_time_float"]=>
+  float(1566476411.1559)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58570)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476410)
+}
+NULL
+client-2 is closed
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476500)
+  ["request_time_float"]=>
+  float(1566476500.4668)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58670)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476500)
+}
+NULL
+client-3 is closed
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476846)
+  ["request_time_float"]=>
+  float(1566476846.3234)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59081)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476845)
+}
+NULL
+client-4 is closed
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476920)
+  ["request_time_float"]=>
+  float(1566476920.0629)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59177)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476919)
+}
+NULL
+client-5 is closed
+int(6)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476944)
+  ["request_time_float"]=>
+  float(1566476944.3795)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59205)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476944)
+}
+NULL
+client-6 is closed
+int(7)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566476978)
+  ["request_time_float"]=>
+  float(1566476978.0673)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59254)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566476977)
+}
+NULL
+client-7 is closed
+int(8)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566477246)
+  ["request_time_float"]=>
+  float(1566477246.5152)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59686)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566477246)
+}
+NULL
+client-8 is closed
+int(9)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566477297)
+  ["request_time_float"]=>
+  float(1566477297.2897)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59748)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566477296)
+}
+client-9 is closed
+[2019-08-22 20:54:19 #9717.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566478562)
+  ["request_time_float"]=>
+  float(1566478562.9022)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(61039)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566478561)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566478577)
+  ["request_time_float"]=>
+  float(1566478577.8842)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(61064)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566478576)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566478591)
+  ["request_time_float"]=>
+  float(1566478591.7409)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(61088)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566478590)
+}
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519055)
+  ["request_time_float"]=>
+  float(1566519055.1784)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62092)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519054)
+}
+[2019-08-23 08:21:35 #8608.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519702)
+  ["request_time_float"]=>
+  float(1566519702.4326)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62855)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519701)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519732)
+  ["request_time_float"]=>
+  float(1566519732.7875)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62898)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519732)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519748)
+  ["request_time_float"]=>
+  float(1566519748.681)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(62915)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519748)
+}
+[2019-08-23 08:24:41 #8735.1]	INFO	Server is shutdown now
+[2019-08-23 08:24:53 #8750.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519911)
+  ["request_time_float"]=>
+  float(1566519911.6922)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63138)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519910)
+}
+PHP Notice:  Array to string conversion in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+PHP Notice:  Array to string conversion in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519928)
+  ["request_time_float"]=>
+  float(1566519928.4324)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63155)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519928)
+}
+PHP Notice:  Array to string conversion in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+PHP Notice:  Array to string conversion in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+PHP Notice:  Array to string conversion in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566519938)
+  ["request_time_float"]=>
+  float(1566519938.6706)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63167)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566519938)
+}
+[2019-08-23 08:28:04 #8766.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566520090)
+  ["request_time_float"]=>
+  float(1566520090.8617)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63336)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566520090)
+}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566520116)
+  ["request_time_float"]=>
+  float(1566520116.9641)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63365)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566520116)
+}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 187
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566520191)
+  ["request_time_float"]=>
+  float(1566520191.3616)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63444)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566520190)
+}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566520205)
+  ["request_time_float"]=>
+  float(1566520205.9211)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(63459)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566520205)
+}
+[2019-08-23 08:55:45 #8779.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521747)
+  ["request_time_float"]=>
+  float(1566521747.7977)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49394)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521747)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521763)
+  ["request_time_float"]=>
+  float(1566521763.5652)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49412)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521763)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521787)
+  ["request_time_float"]=>
+  float(1566521787.8229)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49438)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521787)
+}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 188
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521827)
+  ["request_time_float"]=>
+  float(1566521827.134)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49482)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521826)
+}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521876)
+  ["request_time_float"]=>
+  float(1566521876.5565)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49533)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521876)
+}
+[2019-08-23 08:59:20 #8888.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566521964)
+  ["request_time_float"]=>
+  float(1566521964.267)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49625)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566521963)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566522022)
+  ["request_time_float"]=>
+  float(1566522022.1222)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49696)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566522021)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566522081)
+  ["request_time_float"]=>
+  float(1566522081.1206)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49765)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566522080)
+}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566522168)
+  ["request_time_float"]=>
+  float(1566522168.3048)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(49858)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566522167)
+}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566524697)
+  ["request_time_float"]=>
+  float(1566524697.59)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52908)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566524696)
+}
+[2019-08-23 09:45:10 #8905.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566524714)
+  ["request_time_float"]=>
+  float(1566524714.5113)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(52929)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566524713)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566524809)
+  ["request_time_float"]=>
+  float(1566524809.5498)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53027)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566524808)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566524837)
+  ["request_time_float"]=>
+  float(1566524837.6027)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53065)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566524836)
+}
+[2019-08-23 09:54:20 #9053.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525269)
+  ["request_time_float"]=>
+  float(1566525269.7847)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53527)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525269)
+}
+PHP Notice:  Undefined offset: 0 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 99
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525345)
+  ["request_time_float"]=>
+  float(1566525345.3885)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53610)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525345)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525393)
+  ["request_time_float"]=>
+  float(1566525393.3294)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53658)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525393)
+}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525405)
+  ["request_time_float"]=>
+  float(1566525405.0699)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53672)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525404)
+}
+[2019-08-23 09:57:05 #9095.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525427)
+  ["request_time_float"]=>
+  float(1566525427.7262)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53696)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525427)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525437)
+  ["request_time_float"]=>
+  float(1566525437.5546)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53710)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525437)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566525556)
+  ["request_time_float"]=>
+  float(1566525556.3806)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(53847)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566525556)
+}
+[2019-08-23 10:07:27 #9113.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526057)
+  ["request_time_float"]=>
+  float(1566526057.4225)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(54389)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526057)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526073)
+  ["request_time_float"]=>
+  float(1566526073.3076)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(54407)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526072)
+}
+PHP Notice:  Undefined offset: 1 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 31
+PHP Notice:  Trying to get property 'fd' of non-object in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 167
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526095)
+  ["request_time_float"]=>
+  float(1566526095.79)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(54431)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526095)
+}
+PHP Notice:  Undefined offset: 2 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 31
+PHP Notice:  Trying to get property 'fd' of non-object in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 167
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526195)
+  ["request_time_float"]=>
+  float(1566526195.2436)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(54531)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526194)
+}
+[2019-08-23 10:21:32 #9164.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526905)
+  ["request_time_float"]=>
+  float(1566526905.6967)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55311)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526905)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526930)
+  ["request_time_float"]=>
+  float(1566526930.6884)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55343)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526930)
+}
+PHP Notice:  Undefined offset: 2 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 28
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526944)
+  ["request_time_float"]=>
+  float(1566526944.9298)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55362)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526944)
+}
+PHP Notice:  Undefined offset: 1 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 28
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526975)
+  ["request_time_float"]=>
+  float(1566526975.4917)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55399)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526974)
+}
+PHP Notice:  Undefined offset: 3 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 28
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566526999)
+  ["request_time_float"]=>
+  float(1566526999.2437)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55429)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566526998)
+}
+[2019-08-23 10:24:21 #9250.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527071)
+  ["request_time_float"]=>
+  float(1566527071.7137)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55508)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527071)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527089)
+  ["request_time_float"]=>
+  float(1566527089.29)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55526)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527088)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527102)
+  ["request_time_float"]=>
+  float(1566527102.5919)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55544)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527102)
+}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527111)
+  ["request_time_float"]=>
+  float(1566527111.2519)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55554)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527110)
+}
+PHP Notice:  Undefined offset: 3 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 26
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527121)
+  ["request_time_float"]=>
+  float(1566527121.8541)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55567)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527121)
+}
+int(6)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527141)
+  ["request_time_float"]=>
+  float(1566527141.8645)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55588)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527141)
+}
+PHP Notice:  Undefined offset: 6 in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 26
+int(7)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527149)
+  ["request_time_float"]=>
+  float(1566527149.8896)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55597)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527149)
+}
+[2019-08-23 10:27:56 #9270.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527290)
+  ["request_time_float"]=>
+  float(1566527290.4554)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55747)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527290)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527301)
+  ["request_time_float"]=>
+  float(1566527301.5168)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55758)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527301)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527316)
+  ["request_time_float"]=>
+  float(1566527316.2097)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55774)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527315)
+}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 207
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527405)
+  ["request_time_float"]=>
+  float(1566527405.5143)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55862)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527405)
+}
+PHP Warning:  Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client or closed in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 207
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527408)
+  ["request_time_float"]=>
+  float(1566527408.4615)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55866)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527408)
+}
+[2019-08-23 10:30:24 #9294.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527430)
+  ["request_time_float"]=>
+  float(1566527430.3768)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55889)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527429)
+}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527452)
+  ["request_time_float"]=>
+  float(1566527452.2514)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55915)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527451)
+}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527461)
+  ["request_time_float"]=>
+  float(1566527461.9894)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55925)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527461)
+}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527464)
+  ["request_time_float"]=>
+  float(1566527464.7864)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55930)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527463)
+}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527466)
+  ["request_time_float"]=>
+  float(1566527466.4595)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55933)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527465)
+}
+int(6)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527496)
+  ["request_time_float"]=>
+  float(1566527496.8085)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55971)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527495)
+}
+int(7)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566527516)
+  ["request_time_float"]=>
+  float(1566527516.2226)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(55991)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566527515)
+}
+int(8)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528025)
+  ["request_time_float"]=>
+  float(1566528025.5421)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(56840)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528024)
+}
+int(9)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528040)
+  ["request_time_float"]=>
+  float(1566528040.7785)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(56863)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528039)
+}
+int(10)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528073)
+  ["request_time_float"]=>
+  float(1566528073.8866)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(56904)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528073)
+}
+int(11)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528389)
+  ["request_time_float"]=>
+  float(1566528389.217)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57243)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528388)
+}
+int(12)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528401)
+  ["request_time_float"]=>
+  float(1566528401.4303)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57261)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528400)
+}
+int(13)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528420)
+  ["request_time_float"]=>
+  float(1566528420.6197)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57283)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528419)
+}
+int(14)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528439)
+  ["request_time_float"]=>
+  float(1566528439.11)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57305)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528438)
+}
+int(15)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528470)
+  ["request_time_float"]=>
+  float(1566528470.6702)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57345)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528469)
+}
+int(16)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528490)
+  ["request_time_float"]=>
+  float(1566528490.7858)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57367)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528489)
+}
+int(17)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528496)
+  ["request_time_float"]=>
+  float(1566528496.7465)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57373)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528495)
+}
+int(18)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528522)
+  ["request_time_float"]=>
+  float(1566528522.4006)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57402)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528521)
+}
+int(19)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528528)
+  ["request_time_float"]=>
+  float(1566528528.7354)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57410)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528527)
+}
+int(20)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528548)
+  ["request_time_float"]=>
+  float(1566528548.6167)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57434)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528547)
+}
+int(21)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528551)
+  ["request_time_float"]=>
+  float(1566528551.8461)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57438)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528550)
+}
+int(22)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528573)
+  ["request_time_float"]=>
+  float(1566528573.91)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57470)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528573)
+}
+int(23)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528579)
+  ["request_time_float"]=>
+  float(1566528579.4005)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57477)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528578)
+}
+int(24)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528616)
+  ["request_time_float"]=>
+  float(1566528616.5514)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57546)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528615)
+}
+int(25)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528633)
+  ["request_time_float"]=>
+  float(1566528633.8224)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57601)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528632)
+}
+int(26)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528633)
+  ["request_time_float"]=>
+  float(1566528633.8375)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57602)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528632)
+}
+int(27)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528656)
+  ["request_time_float"]=>
+  float(1566528656.7529)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57667)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528655)
+}
+int(28)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528656)
+  ["request_time_float"]=>
+  float(1566528656.9159)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57669)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528656)
+}
+int(29)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528709)
+  ["request_time_float"]=>
+  float(1566528709.3691)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57781)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528708)
+}
+int(30)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528709)
+  ["request_time_float"]=>
+  float(1566528709.3863)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57782)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528708)
+}
+int(31)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528737)
+  ["request_time_float"]=>
+  float(1566528737.823)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57845)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528736)
+}
+int(32)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528737)
+  ["request_time_float"]=>
+  float(1566528737.9749)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57847)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528737)
+}
+int(33)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528813)
+  ["request_time_float"]=>
+  float(1566528813.1133)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57959)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528812)
+}
+int(34)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528845)
+  ["request_time_float"]=>
+  float(1566528845.8744)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(57968)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528845)
+}
+[2019-08-23 10:56:24 #9315.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566528993)
+  ["request_time_float"]=>
+  float(1566528993.0195)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58009)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566528992)
+}
+fd:1Message:{"username":"lstink","pwd":"123456","action":"login"}fd:1Message:dafdaint(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566529135)
+  ["request_time_float"]=>
+  float(1566529135.4755)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58060)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566529134)
+}
+fd:2Message:{"username":"lstink","pwd":"123456","action":"login"}fd:2Message:{"message":"d您好","fd":"2","action":"chat"}[2019-08-23 10:59:45 #9392.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566529190)
+  ["request_time_float"]=>
+  float(1566529190.3491)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58075)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566529189)
+}
+fd:1Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd:1Message:{"message":"daff","fd":"1","action":"chat"}
+[2019-08-23 11:00:26 #9414.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566529231)
+  ["request_time_float"]=>
+  float(1566529231.5684)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58087)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566529230)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"都说到","fd":"1","action":"chat"}
+[2019-08-23 11:03:15 #9440.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566529404)
+  ["request_time_float"]=>
+  float(1566529404.8418)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58144)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566529403)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"打","fd":"1","action":"chat"}
+[2019-08-23 11:15:01 #9483.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530108)
+  ["request_time_float"]=>
+  float(1566530108.2616)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58341)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530107)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"您好","fd":"1","action":"chatOnPublic"}
+PHP Notice:  Undefined property: WebSocketClass::$wc in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 216
+PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /data/wwwroot/www.test.com/laravel/public/webSocket.php:216
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(201): WebSocketClass->getUserNameByFd('1')
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(76): WebSocketClass->chatOnPublic(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(18): WebSocketClass->doDate('{"message":"\xE6\x82\xA8...')
+#3 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 216
+[2019-08-23 11:15:25 *9554.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to a member function getUsers() on null in /data/wwwroot/www.test.com/laravel/public/webSocket.php:216
+Stack trace:
+#0 /data/wwwroot/www.test.com/laravel/public/webSocket.php(201): WebSocketClass->getUserNameByFd('1')
+#1 /data/wwwroot/www.test.com/laravel/public/webSocket.php(76): WebSocketClass->chatOnPublic(Array)
+#2 /data/wwwroot/www.test.com/laravel/public/webSocket.php(18): WebSocketClass->doDate('{"message":"\xE6\x82\xA8...')
+#3 {main}
+  thrown in /data/wwwroot/www.test.com/laravel/public/webSocket.php on line 216
+[2019-08-23 11:15:25 $9552.0]	WARNING	swManager_check_exit_status: worker#0[pid=9554] abnormal exit, status=255, signal=0
+[2019-08-23 11:16:23 #9546.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530192)
+  ["request_time_float"]=>
+  float(1566530192.6727)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58431)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530191)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"都是","fd":"1","action":"chatOnPublic"}
+[2019-08-23 11:17:32 #9563.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530260)
+  ["request_time_float"]=>
+  float(1566530260.1464)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58506)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530259)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"受到","fd":"1","action":"chatOnPublic"}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530672)
+  ["request_time_float"]=>
+  float(1566530672.3586)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(58986)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530671)
+}
+fd: 2 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 2 Message:{"message":"lll4444","fd":"2","action":"chatOnPublic"}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530748)
+  ["request_time_float"]=>
+  float(1566530748.6142)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59081)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530747)
+}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 3 Message:{"message":"非说是","fd":"3","action":"chatOnPublic"}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530771)
+  ["request_time_float"]=>
+  float(1566530771.8021)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59107)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530771)
+}
+fd: 4 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 4 Message:{"message":"都是","fd":"4","action":"chatOnPublic"}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566530790)
+  ["request_time_float"]=>
+  float(1566530790.6618)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59147)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566530789)
+}
+fd: 5 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 5 Message:{"message":"都说到","fd":"5","action":"chatOnPublic"}
+[2019-08-23 11:31:29 #9580.1]	INFO	Server is shutdown now
+int(1)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531094)
+  ["request_time_float"]=>
+  float(1566531094.696)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59488)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531094)
+}
+fd: 1 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 1 Message:{"message":"都是","fd":"1","action":"chatOnPublic"}
+int(2)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531138)
+  ["request_time_float"]=>
+  float(1566531138.8156)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59537)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531138)
+}
+fd: 2 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 2 Message:{"message":"大萨达","fd":"2","action":"chatOnPublic"}
+int(3)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531148)
+  ["request_time_float"]=>
+  float(1566531148.2874)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59552)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531147)
+}
+fd: 3 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 3 Message:{"message":"您好","fd":"3","action":"chatOnPublic"}
+fd: 2 Message:{"message":"您真调皮","fd":"2","action":"chatOnPublic"}
+int(4)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531210)
+  ["request_time_float"]=>
+  float(1566531210.6802)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59630)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531210)
+}
+fd: 4 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 4 Message:{"message":"你真秀","fd":"4","action":"chatOnPublic"}
+fd: 4 Message:{"message":"大师傅大神","fd":"4","action":"chatOnPublic"}
+fd: 3 Message:{"message":"啊啊啊啊啊","fd":"3","action":"chatOnPublic"}
+int(5)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531242)
+  ["request_time_float"]=>
+  float(1566531242.1223)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59665)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531241)
+}
+int(6)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531327)
+  ["request_time_float"]=>
+  float(1566531327.6958)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59755)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531327)
+}
+fd: 6 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(7)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531340)
+  ["request_time_float"]=>
+  float(1566531340.0475)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59775)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531339)
+}
+int(8)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531425)
+  ["request_time_float"]=>
+  float(1566531425.6093)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59867)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531425)
+}
+fd: 8 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(9)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531433)
+  ["request_time_float"]=>
+  float(1566531433.755)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59875)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531433)
+}
+fd: 9 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 9 Message:{"message":"都是","fd":"9","action":"chatOnPublic"}
+int(10)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531450)
+  ["request_time_float"]=>
+  float(1566531450.431)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(59898)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531449)
+}
+int(11)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531544)
+  ["request_time_float"]=>
+  float(1566531544.7881)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(60002)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531544)
+}
+fd: 11 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(12)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531549)
+  ["request_time_float"]=>
+  float(1566531549.9494)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(60008)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531549)
+}
+fd: 12 Message:{"username":"lstink","pwd":"123456","action":"login"}
+int(13)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531558)
+  ["request_time_float"]=>
+  float(1566531558.7653)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(60020)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531558)
+}
+int(14)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531643)
+  ["request_time_float"]=>
+  float(1566531643.031)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(60112)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531642)
+}
+fd: 14 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 13 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 13 Message:{"message":"您好","fd":"13","action":"chatOnPublic"}
+int(15)
+NULL
+array(10) {
+  ["request_method"]=>
+  string(3) "GET"
+  ["request_uri"]=>
+  string(1) "/"
+  ["path_info"]=>
+  string(1) "/"
+  ["request_time"]=>
+  int(1566531662)
+  ["request_time_float"]=>
+  float(1566531662.5833)
+  ["server_protocol"]=>
+  string(8) "HTTP/1.1"
+  ["server_port"]=>
+  int(9502)
+  ["remote_port"]=>
+  int(60141)
+  ["remote_addr"]=>
+  string(12) "192.168.63.1"
+  ["master_time"]=>
+  int(1566531662)
+}
+fd: 15 Message:{"username":"lstink","pwd":"123456","action":"login"}
+fd: 15 Message:{"message":"您好","fd":"15","action":"chatOnPublic"}
+fd: 15 Message:{"message":"下皮皮","fd":"15","action":"chatOnPublic"}
+fd: 14 Message:{"message":"你真皮","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"打发","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"个df国防生的","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"fgsd斯蒂芬","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"fds斯蒂芬","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"sdf个s发个","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"第三方","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"sfd个sdf更舒服点","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"斯蒂芬","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"dfs个","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"fgsd","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"个f","fd":"14","action":"chatOnPublic"}
+fd: 14 Message:{"message":"d","fd":"14","action":"chatOnPublic"}
+
