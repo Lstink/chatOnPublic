@@ -12,6 +12,9 @@ $ws->on('open', function ($ws, $request) {
 
 //监听WebSocket消息事件
 $ws->on('message', function ($ws, $frame) {
+    if (!json_decode($frame->data,true)) {
+        return false;
+    }
     echo 'fd: '.$frame->fd.' Message:'.$frame->data."\n\r";
     //处理数据
     $webSocket = new WebSocketClass($ws,$frame);
